@@ -1,0 +1,122 @@
+@charset "utf-8";
+body {
+	background-image: url(../image/background.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+#avatar {
+	position: fixed;
+	height: 400px;
+	width: 270px;
+	margin-left: 30px;
+	padding-top: 30px;
+}
+/*左部颜色块*/
+#back_avatar {
+	background-color: rgb(255,110,72,0.2);
+	float: left;
+	width: 340px;
+	background-position: 100% 100%;
+	position: fixed;
+	border-right-width: medium;
+	border-right-color: #FFF;
+	height: 100%;
+}
+/* 导航条 */
+.topnav {
+	overflow: hidden;
+	background-color:rgb(255,110,72,0.2);
+	margin-left: 340px;
+}
+ 
+/* 导航链接 */
+.topnav a {
+	float: left;
+	display: block;
+	color: rgb(255,153,0);
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-family: "华文琥珀";
+	font-size: 30px;
+}
+ 
+/*  修改颜色 */
+.topnav a:hover {
+	background-color: #FFF;
+	color: rgb(255,255,0);
+		
+}
+/* 手风琴肖像块*/
+.accordian{
+	width: 950px;
+	position: relative;
+	overflow: visible;
+	margin-left: 360px;
+	height: 500px;
+	}
+
+#name {
+	font-family: "华文琥珀";
+	font-size: 36px;
+	font-style: italic;	
+	line-height: normal;
+	font-weight: 200;
+            background-image: -webkit-linear-gradient(bottom,  rgb(255,102,102),rgb(255,204,51));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+}
+.title {
+	margin-left: 370px;
+	font-size: 36px;
+	color: #F90;
+}
+
+#tabgro {
+	border: medium dashed #F90;
+
+	padding: 0px;
+	margin: auto;
+	width: 800px;
+	margin-left: 400px;
+}
+#box {
+	margin-left: 800px;
+}
+
+.image_title a{
+	font-family: "宋体";
+	font-size: 24px;
+}
+#avatar p{
+	font-family: "华文琥珀";
+	font-size: 20px;
+	text-shadow: 4px 3px 1px rgb(0,255,255,0.4);
+	color: rgb(255,153,204);
+}
+#cap {
+	background-color: rgb(255,255,255);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-image: url(../image/back.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: repeat;
+}
+#box {
+     width: 800px;
+     margin-left:400px;
+}
+#old{
+     width: 800px;
+	 height:600px;
+}
+#li {
+     display: block;
+     border-bottom: 1px dashed #ebebeb;
+     margin: 10px 0;
+     padding: 8px 0;
+}
+
